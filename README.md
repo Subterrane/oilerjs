@@ -31,48 +31,48 @@ npm install oilerjs
     var prime = oiler.isPrime(91);
     console.log(prime); // false
 
-# Documentation
+## Documentation
 
-## `var Oiler = function ()`
+### `var Oiler = function ()`
 
  * **Constructor**
 
-## `Oiler.prototype.getPrimeFactors = function primeFactorization(n)`
+### `Oiler.prototype.getPrimeFactors = function primeFactorization(n)`
 
 Get the prime factors of 'n'. Shout-out: http://www.coderenaissance.com/2011/06/finding-prime-factors-in-javascript.html
 
  * **Parameters:** `n` — 
  * **Returns:** `*|Array` — 
 
-## `Oiler.prototype.isEven = function (n)`
+### `Oiler.prototype.isEven = function (n)`
 
 Is 'n' a prime number? Embarrassingly simple.
 
  * **Parameters:** `n` — 
  * **Returns:** `boolean` — 
 
-## `Oiler.prototype.isGoldbachsOtherConjecture = function (n)`
+### `Oiler.prototype.isGoldbachsOtherConjecture = function (n)`
 
 Goldbach's other conjecture It was proposed by Christian Goldbach that every odd composite number can be written as the sum of a prime and twice a square. (It turns out that the conjecture was false.)
 
  * **Parameters:** `n` — 
  * **Returns:** `boolean` — 
 
-## `Oiler.prototype.isPandigital = function (n)`
+### `Oiler.prototype.isPandigital = function (n)`
 
 Is 'n' a pandigital number?
 
  * **Parameters:** `n` — 
  * **Returns:** `boolean` — 
 
-## `Oiler.prototype.isPentagonal = function (n)`
+### `Oiler.prototype.isPentagonal = function (n)`
 
 Is 'n' a pantagonal number? I don't know where I found this formula.
 
  * **Parameters:** `n` — 
  * **Returns:** `boolean` — 
 
-## `Oiler.prototype.isPermutation = function (n, m)`
+### `Oiler.prototype.isPermutation = function (n, m)`
 
 Are n and m permutations of each other? Ugly, but works. Seems like there's a more elegant solution.
 
@@ -81,7 +81,7 @@ Are n and m permutations of each other? Ugly, but works. Seems like there's a mo
    * `m` — 
  * **Returns:** `boolean` — 
 
-## `Oiler.prototype.isPrime = function (n)`
+### `Oiler.prototype.isPrime = function (n)`
 
 Is 'n' a prime number? Shout-out: http://en.wikipedia.org/wiki/Primality_test
 
