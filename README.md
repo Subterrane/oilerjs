@@ -67,7 +67,7 @@ Is 'n' a pandigital number?
 
 ### `Oiler.prototype.isPentagonal = function (n)`
 
-Is 'n' a pantagonal number? I don't know where I found this formula.
+Is 'n' a pentagonal number? I don't know where I found this formula.
 
  * **Parameters:** `n` — 
  * **Returns:** `boolean` — 
