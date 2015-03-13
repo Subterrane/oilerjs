@@ -84,7 +84,7 @@ Oiler.prototype.isPandigital = function (n) {
 };
 
 /**
- * Is 'n' a pantagonal number?
+ * Is 'n' a pentagonal number?
  * I don't know where I found this formula.
  *
  * @param n
