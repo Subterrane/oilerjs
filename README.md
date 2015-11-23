@@ -46,7 +46,7 @@ Get the prime factors of 'n'. Shout-out: http://www.coderenaissance.com/2011/06/
 
 ### `Oiler.prototype.isEven = function (n)`
 
-Is 'n' a prime number? Embarrassingly simple.
+Is 'n' an even number? Embarrassingly simple.
 
  * **Parameters:** `n` — 
  * **Returns:** `boolean` — 
